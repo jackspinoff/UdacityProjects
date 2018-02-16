@@ -1,0 +1,89 @@
+/*BODY*/
+body {
+	font-family: 'Orbitron', sans-serif;
+	color: #333;
+	font-weight: 300;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 1199px) {
+	.title-logo {
+		height: 125px;
+		width: 125px;
+	}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+	.title-logo {
+		height: 191px;
+		width: 191px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.main-title {
+		text-align: center;
+	}
+	.main-logo {
+		text-align: center;
+	}
+	.title-logo {
+		height: 125px;
+		width: 125px;
+	}
+}
+
+/*HEADER*/
+.header {
+	height: auto;
+}
+
+.main-logo {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.main-title {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.text-muted {
+	color: #337ab7;
+	text-align: center;
+}
+
+.text-thin {
+	font-weight: 400;
+}
+
+/*SHOWCASE*/
+.promo {
+	margin-top: 25px;
+}
+
+.promo-img:hover {
+	opacity: 0.85;
+}
+
+.showcase {
+	text-align: center;	
+	margin-bottom: 30px;
+}
+
+/*MODALS*/
+.modal-header {
+	text-align: center;
+}
+
+.modal-body {
+	text-align: justify;
+}
+
+.modal-par {
+	padding-top: 15px;
+}

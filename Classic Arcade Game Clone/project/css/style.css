@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffc7c7;
+}
+
+/*
+//------------------ SECTIONS ------------------//
+*/
+
+.left-side-bar {
+	font-family: 'Share Tech Mono';
+	order: 1;
+	width: 350px;
+	margin: 20px;
+	text-align: center;
+}
+
+canvas {
+	order: 2;
+	vertical-align: center;
+	text-align: center;
+	margin: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.right-side-bar {
+	font-family: 'Share Tech Mono';
+	order: 3;
+	width: 350px;
+	margin: 20px;
+	text-align: center;
+}
+
+/*
+//------------------ TITLES ------------------//
+*/
+
+h2{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.highscore {
+	padding-bottom: 40px;
+}
+
+/*
+//------------------ IMAGES ------------------//
+*/
+
+.player-img {
+	width: 50px;
+}
+
+.keyboard-img {
+	width: 50px;
+}
+
+.tile-img {
+	width: 70px;
+	padding-bottom: 50px;
+}
+
+.collect-img {
+	width: 70px;
+}

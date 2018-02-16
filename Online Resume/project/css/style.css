@@ -1,0 +1,372 @@
+/* BODY */
+
+* {
+  padding:0;
+  margin:0;
+  font-family: 'Muli', sans-serif;
+}
+
+/*FONT AWESOME*/
+
+.fa {
+  color: #9d9d9d;
+}
+
+.education-entry, .work-entry, .project-entry {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.project-entry p {
+  color: #fff;
+}
+
+.project-entry img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+#navbarButton {
+  margin-top: 15px;
+}
+
+#navbar {
+  margin-bottom: 0px;
+}
+
+#education, #projects, #workExperience {
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #F5A623;
+  line-height: 48px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+  line-height: 29px;
+  padding: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000000;
+  line-height: 22px;
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 17px;
+}
+
+h2, h3, h4, h5 {
+  padding:10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: right;
+
+}
+
+p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 21px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #1199C3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #F3F3F3;
+  line-height: 28px;
+}
+
+#skillsH3 {
+  color: #1199C3;
+  display: none;
+}
+
+.orange {
+  background-color: #32506d;
+  color: #fff;
+}
+
+.orange-text {
+  color: #fff;
+}
+
+.white-text {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.gray {
+  background-color: #F3F3F3;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+.dark-gray {
+  background-color: #4A4A4A;
+}
+
+/* TODO: Replace with image later --> I have decided to maintain the background colour */
+#header {
+  background-color: #32506d;
+  padding-top: 50px 0 0 0;
+  text-align: center;
+}
+
+.clearfix {
+  overflow: auto;
+  text-align: center;
+}
+
+#footerContacts {
+  margin-bottom: 0;
+}
+
+#name {
+  color: white;
+  text-align: center;
+}
+
+#role {
+  padding-bottom: 15px;
+  text-align: center;
+  color: #FFF;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.center-content {
+  padding-top: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2.5%
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* IMAGE PROFILE */
+
+.biopic {
+  padding: 10px;
+  width: 200px;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imgProfile {
+  text-align: center;
+}
+
+.circular {
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+}
+
+img {
+  padding: 10px;
+}
+
+/* Bar chart stuff */
+.chart div {
+  font: 10px sans-serif;
+  background-color: #4A4A4A;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  height: 12px;
+  color: white;
+  display: inline-block;
+}
+
+span {
+  padding: 5px;
+}
+
+#letsConnect {
+  text-align: center;
+  background-color: #101010;
+  margin-top: 5%;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 25%;
+  }
+  .biopic {
+    width: 150px;
+    display: block;
+  }
+  .welcome-message {
+    display: none;
+  }
+  .project-entry img{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #letsConnect {
+    margin-top: 40%;
+  }
+  .biopic {
+    width: 150px;
+    display: block;
+  }
+  .welcome-message {
+    display: none;
+  }
+  .project-entry img{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  .biopic {
+    display: block;
+  }
+}
+
+/* MAP */
+
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 20px;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+  margin-bottom: 20px;
+}
+
+/* SKILLS CHART*/
+
+.skills{
+  width:100%;
+  margin: 0px auto;
+  padding:20px;
+}
+
+.skills h2{
+  text-align:center;
+  width:100%;
+  margin: 0 0 20px 0;
+}
+
+.skills .chart{
+  position:relative;
+  display: block;
+  padding: 10px;
+  margin: 0 0 3px 0;
+  text-align: center;
+  position: relative;
+  border: 4px double rgba(0,0,0,0.1);
+  background:#fff;
+}
+
+.skills .chart:after{
+  content: "";
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  box-shadow: inset 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+}
+
+.skills .chart span{
+  position: absolute;
+  left: 0;
+  top:0;
+  background: url("http://www.kriesi.at/themes/flashlight/wp-content/themes/flashlight/images/patterns/light-diagonal-wide-left-to-right.png") repeat #007bb6;
+  z-index:0;
+  height:100%;
+  width:0px;
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
+  transition: all ease-in-out 1s;
+}
+
+.skills .chart p{
+  position: relative;
+  z-index: 100;
+  margin: 0;
+  color:#333;
+  font-size: 0.9em;
+  line-height:1.2em;
+}
+/* END OF SKILLS CHART*/
